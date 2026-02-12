@@ -124,7 +124,7 @@ public class User {
         isActive = active;
     }
 
-    public Role getRole() {
+    public Role getRole() {// Role file create and dont forget to import it here then only the error will be gone 
         return role;
     }
 
