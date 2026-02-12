@@ -32,6 +32,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+//so when creating the field there will be constraints thing ask chatgpt it will tell like for password we can give the constraing like password size more thena 6 and less than 24 and it should consists uppercase and lowercase like that see that 
 
 public class User {
      @Id
